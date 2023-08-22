@@ -1,0 +1,114 @@
+
+
+/* Style for the header */
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* Style for the main container */
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* Style for the task input */
+#taskInput {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style for the add task button */
+#addTaskBtn {
+  margin-top: 0.5rem;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style for the task list */
+#taskList {
+  margin-top: 1rem;
+  list-style: none;
+  padding: 0;
+}
+
+/* Style for individual task items */
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+}
+
+/* Style for the delete button */
+.delete-btn {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 0.2rem 0.5rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Style for the select all and delete selected buttons */
+#selectAllBtn,
+#deleteSelectedBtn {
+  display: block;
+  margin: 1rem 0;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style for the delete selected button */
+#deleteSelectedBtn {
+  background-color: #dc3545;
+}
+
+/* Style for the footer */
+footer {
+  text-align: center;
+  margin-top: 2rem;
+  color: #888;
+}
+
+/* Add bottom margin to the footer content */
+.footer-content {
+  margin-bottom: 0.5rem;
+}
+
+/* Style for the task checkbox */
+.form-check-input {
+  margin-right: 0.5rem;
+}
+
+/* Custom style for checkbox */
+.form-check-input:checked + .form-check-label:before {
+  content: "\f00c"; /* FontAwesome checkmark icon */
+  font-family: "Font Awesome 5 Free"; /* Use the FontAwesome font family */
+  font-weight: 900;
+  font-size: 18px;
+  color: #28a745;
+  display: inline-block;
+  width: 1em;
+}
+
+/* Style for other customizations, if needed */
